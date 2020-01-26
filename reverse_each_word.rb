@@ -1,3 +1,4 @@
 def reverse_each_word(sentence)
   sen_arr = sentence.split(" ")
-  sen_arr.
+  new_arr = []
+  new_arr << sen_arr.each |word|
